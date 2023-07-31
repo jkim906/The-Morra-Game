@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="nz.ac.auckland.se281.MainTest" time="0.367" tests="84" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/jaewon/Documents/GitHub Respositories/assignment-2-jkim906/target/test-classes:/Users/jaewon/Documents/GitHub Respositories/assignment-2-jkim906/target/classes:/Users/jaewon/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/jaewon/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/jaewon/Documents/GitHub Respositories/assignment-2-jkim906/libs/codestyle.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="NZ"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/jaewon/Documents/GitHub Respositories/assignment-2-jkim906/target/surefire/surefirebooter10799586534470272800.jar /Users/jaewon/Documents/GitHub Respositories/assignment-2-jkim906/target/surefire 2023-08-01T01-10-02_034-jvmRun1 surefire4260028421827223967tmp surefire_07757460638805631769tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|127.0.0.1:21300|*.127.0.0.1:21300"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/jaewon/Documents/GitHub Respositories/assignment-2-jkim906/target/test-classes:/Users/jaewon/Documents/GitHub Respositories/assignment-2-jkim906/target/classes:/Users/jaewon/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/jaewon/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/jaewon/Documents/GitHub Respositories/assignment-2-jkim906/libs/codestyle.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/jaewon"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/jaewon/Documents/GitHub Respositories/assignment-2-jkim906"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/jaewon/Documents/GitHub Respositories/assignment-2-jkim906/target/surefire/surefirebooter10799586534470272800.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|127.0.0.1:21300|*.127.0.0.1:21300"/>
+    <property name="java.runtime.version" value="17.0.6+9-LTS-190"/>
+    <property name="user.name" value="jaewon"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.3.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/jaewon/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/t5/rzswgsg54rq32z3ct9tbtg4c0000gn/T/"/>
+    <property name="java.version" value="17.0.6"/>
+    <property name="user.dir" value="/Users/jaewon/Documents/GitHub Respositories/assignment-2-jkim906"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/jaewon/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.6+9-LTS-190"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|127.0.0.1:21300|*.127.0.0.1:21300"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="T1_13_play_ask_for_input" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.016"/>
+  <testcase name="T1_12_play_start_round" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.003"/>
+  <testcase name="T1_01_new_game" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.002"/>
+  <testcase name="T1_04_play_ask_for_input_wrong_sum" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.003"/>
+  <testcase name="T1_17_play_ask_for_input_ok2" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.002"/>
+  <testcase name="T1_15_play_ask_for_input_wrong_fingers" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.002"/>
+  <testcase name="T1_08_play_ask_for_input_ok_not_valid_two_rounds" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.002"/>
+  <testcase name="T1_02_play_start_round" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.002"/>
+  <testcase name="T1_14_play_ask_for_input_wrong_sum_and_fingers" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.003"/>
+  <testcase name="T1_20_play_ask_for_input_two_rounds_second_wrong_many_times" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.002"/>
+  <testcase name="T1_19_play_ask_for_input_two_rounds_second_wrong" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.004"/>
+  <testcase name="T1_10_play_ask_for_input_two_rounds_second_wrong" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.003"/>
+  <testcase name="T1_07_play_ask_for_input_ok2" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.002"/>
+  <testcase name="T1_11_new_game" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.002"/>
+  <testcase name="T1_16_play_ask_for_input_ok" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.002"/>
+  <testcase name="T1_06_play_ask_for_input_ok" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.002"/>
+  <testcase name="T1_05_play_ask_for_input_wrong_fingers" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.003"/>
+  <testcase name="T1_18_play_ask_for_input_ok_not_valid_two_rounds" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.002"/>
+  <testcase name="T1_09_play_ask_for_input_two_rounds_second_wrong" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.002"/>
+  <testcase name="T1_03_play_ask_for_input" classname="nz.ac.auckland.se281.MainTest$Task1" time="0.002"/>
+  <testcase name="T2_03_play_ask_for_input_Jarvis_random_seed_two_rounds" classname="nz.ac.auckland.se281.MainTest$Task2" time="0.001"/>
+  <testcase name="T2_08_play_ask_for_input_Jarvis_random_seed" classname="nz.ac.auckland.se281.MainTest$Task2" time="0.002"/>
+  <testcase name="T2_12_play_ask_for_input_Jarvis_random_seed_draw" classname="nz.ac.auckland.se281.MainTest$Task2" time="0.002"/>
+  <testcase name="T2_05_play_ask_for_input_Jarvis_random_seed_jarvis_wins" classname="nz.ac.auckland.se281.MainTest$Task2" time="0.002"/>
+  <testcase name="T2_11_play_ask_for_input_Jarvis_random_seed_jarvis_wins" classname="nz.ac.auckland.se281.MainTest$Task2" time="0.002"/>
+  <testcase name="T2_01_play_ask_for_input_Jarvis" classname="nz.ac.auckland.se281.MainTest$Task2" time="0.002"/>
+  <testcase name="T2_02_play_ask_for_input_Jarvis_random_seed" classname="nz.ac.auckland.se281.MainTest$Task2" time="0.002"/>
+  <testcase name="T2_10_play_ask_for_input_Jarvis_random_seed_human_wins" classname="nz.ac.auckland.se281.MainTest$Task2" time="0.003"/>
+  <testcase name="T2_06_play_ask_for_input_Jarvis_random_seed_draw" classname="nz.ac.auckland.se281.MainTest$Task2" time="0.002"/>
+  <testcase name="T2_07_play_ask_for_input_Jarvis" classname="nz.ac.auckland.se281.MainTest$Task2" time="0.002"/>
+  <testcase name="T2_09_play_ask_for_input_Jarvis_random_seed_two_rounds" classname="nz.ac.auckland.se281.MainTest$Task2" time="0.002"/>
+  <testcase name="T2_04_play_ask_for_input_Jarvis_random_seed_human_wins" classname="nz.ac.auckland.se281.MainTest$Task2" time="0.002"/>
+  <testcase name="T3_10_play_ask_for_input_Jarvis_random_seed_three_rounds" classname="nz.ac.auckland.se281.MainTest$Task3" time="0.003"/>
+  <testcase name="T3_08_play_ask_for_input_Jarvis_random_seed" classname="nz.ac.auckland.se281.MainTest$Task3" time="0.002"/>
+  <testcase name="T3_06_play_ask_for_input_Jarvis_random_seed_five_rounds" classname="nz.ac.auckland.se281.MainTest$Task3" time="0.002"/>
+  <testcase name="T3_09_play_ask_for_input_Jarvis_random_seed_two_rounds" classname="nz.ac.auckland.se281.MainTest$Task3" time="0.002"/>
+  <testcase name="T3_04_play_ask_for_input_Jarvis_random_seed_three_rounds" classname="nz.ac.auckland.se281.MainTest$Task3" time="0.003"/>
+  <testcase name="T3_01_play_ask_for_input_Jarvis" classname="nz.ac.auckland.se281.MainTest$Task3" time="0.002"/>
+  <testcase name="T3_12_play_ask_for_input_Jarvis_random_seed_five_rounds" classname="nz.ac.auckland.se281.MainTest$Task3" time="0.002"/>
+  <testcase name="T3_05_play_ask_for_input_Jarvis_random_seed_four_rounds" classname="nz.ac.auckland.se281.MainTest$Task3" time="0.003"/>
+  <testcase name="T3_02_play_ask_for_input_Jarvis_random_seed" classname="nz.ac.auckland.se281.MainTest$Task3" time="0.002"/>
+  <testcase name="T3_11_play_ask_for_input_Jarvis_random_seed_four_rounds" classname="nz.ac.auckland.se281.MainTest$Task3" time="0.003"/>
+  <testcase name="T3_03_play_ask_for_input_Jarvis_random_seed_two_rounds" classname="nz.ac.auckland.se281.MainTest$Task3" time="0.002"/>
+  <testcase name="T3_07_play_ask_for_input_Jarvis" classname="nz.ac.auckland.se281.MainTest$Task3" time="0.002"/>
+  <testcase name="T4_03_play_ask_for_input_Jarvis_random_seed_two_rounds" classname="nz.ac.auckland.se281.MainTest$Task4" time="0.002"/>
+  <testcase name="T4_08_play_ask_for_input_Jarvis_random_seed" classname="nz.ac.auckland.se281.MainTest$Task4" time="0.003"/>
+  <testcase name="T4_10_play_ask_for_input_Jarvis_random_seed_three_rounds" classname="nz.ac.auckland.se281.MainTest$Task4" time="0.004"/>
+  <testcase name="T4_06_play_ask_for_input_Jarvis_random_seed_five_rounds" classname="nz.ac.auckland.se281.MainTest$Task4" time="0.008"/>
+  <testcase name="T4_01_play_ask_for_input_Jarvis" classname="nz.ac.auckland.se281.MainTest$Task4" time="0.009"/>
+  <testcase name="T4_12_play_ask_for_input_Jarvis_random_seed_five_rounds" classname="nz.ac.auckland.se281.MainTest$Task4" time="0.007"/>
+  <testcase name="T4_04_play_ask_for_input_Jarvis_random_seed_three_rounds" classname="nz.ac.auckland.se281.MainTest$Task4" time="0.006"/>
+  <testcase name="T4_05_play_ask_for_input_Jarvis_random_seed_four_rounds" classname="nz.ac.auckland.se281.MainTest$Task4" time="0.012"/>
+  <testcase name="T4_02_play_ask_for_input_Jarvis_random_seed" classname="nz.ac.auckland.se281.MainTest$Task4" time="0.013"/>
+  <testcase name="T4_11_play_ask_for_input_Jarvis_random_seed_four_rounds" classname="nz.ac.auckland.se281.MainTest$Task4" time="0.011"/>
+  <testcase name="T4_07_play_ask_for_input_Jarvis" classname="nz.ac.auckland.se281.MainTest$Task4" time="0.002"/>
+  <testcase name="T4_09_play_ask_for_input_Jarvis_random_seed_two_rounds" classname="nz.ac.auckland.se281.MainTest$Task4" time="0.003"/>
+  <testcase name="T5_08_play_ask_for_input_Jarvis_random_seed" classname="nz.ac.auckland.se281.MainTest$Task5" time="0.014"/>
+  <testcase name="T5_01_play_ask_for_input_Jarvis" classname="nz.ac.auckland.se281.MainTest$Task5" time="0.01"/>
+  <testcase name="T5_09_play_ask_for_input_Jarvis_random_seed_two_rounds" classname="nz.ac.auckland.se281.MainTest$Task5" time="0.003"/>
+  <testcase name="T5_06_play_ask_for_input_Jarvis_random_seed_five_rounds" classname="nz.ac.auckland.se281.MainTest$Task5" time="0.013"/>
+  <testcase name="T5_10_play_ask_for_input_Jarvis_random_seed_three_rounds" classname="nz.ac.auckland.se281.MainTest$Task5" time="0.004"/>
+  <testcase name="T5_02_play_ask_for_input_Jarvis_random_seed" classname="nz.ac.auckland.se281.MainTest$Task5" time="0.003"/>
+  <testcase name="T5_12_play_ask_for_input_Jarvis_random_seed_five_rounds" classname="nz.ac.auckland.se281.MainTest$Task5" time="0.004"/>
+  <testcase name="T5_05_play_ask_for_input_Jarvis_random_seed_four_rounds" classname="nz.ac.auckland.se281.MainTest$Task5" time="0.004"/>
+  <testcase name="T5_04_play_ask_for_input_Jarvis_random_seed_three_rounds" classname="nz.ac.auckland.se281.MainTest$Task5" time="0.003"/>
+  <testcase name="T5_07_play_ask_for_input_Jarvis" classname="nz.ac.auckland.se281.MainTest$Task5" time="0.004"/>
+  <testcase name="T5_11_play_ask_for_input_Jarvis_random_seed_four_rounds" classname="nz.ac.auckland.se281.MainTest$Task5" time="0.004"/>
+  <testcase name="T5_03_play_ask_for_input_Jarvis_random_seed_two_rounds" classname="nz.ac.auckland.se281.MainTest$Task5" time="0.003"/>
+  <testcase name="T6_16_show_stats_ok" classname="nz.ac.auckland.se281.MainTest$Task6" time="0.005"/>
+  <testcase name="T6_04_jarvis_wins_one_round" classname="nz.ac.auckland.se281.MainTest$Task6" time="0.002"/>
+  <testcase name="T6_14_human_wins_two_rounds" classname="nz.ac.auckland.se281.MainTest$Task6" time="0.004"/>
+  <testcase name="T6_07_show_stats_fail" classname="nz.ac.auckland.se281.MainTest$Task6" time="0.004"/>
+  <testcase name="T6_10_start_game_twice" classname="nz.ac.auckland.se281.MainTest$Task6" time="0.004"/>
+  <testcase name="T6_15_show_stats_fail" classname="nz.ac.auckland.se281.MainTest$Task6" time="0.008"/>
+  <testcase name="T6_03_wins_one_round" classname="nz.ac.auckland.se281.MainTest$Task6" time="0.016"/>
+  <testcase name="T6_05_human_wins_two_rounds" classname="nz.ac.auckland.se281.MainTest$Task6" time="0.008"/>
+  <testcase name="T6_12_jarvis_wins_one_round" classname="nz.ac.auckland.se281.MainTest$Task6" time="0.002"/>
+  <testcase name="T6_01_play_before_start" classname="nz.ac.auckland.se281.MainTest$Task6" time="0.002"/>
+  <testcase name="T6_06_human_wins_two_rounds" classname="nz.ac.auckland.se281.MainTest$Task6" time="0.002"/>
+  <testcase name="T6_13_human_wins_two_rounds" classname="nz.ac.auckland.se281.MainTest$Task6" time="0.004"/>
+  <testcase name="T6_08_show_stats_ok" classname="nz.ac.auckland.se281.MainTest$Task6" time="0.004"/>
+  <testcase name="T6_11_wins_one_round" classname="nz.ac.auckland.se281.MainTest$Task6" time="0.003"/>
+  <testcase name="T6_09_play_before_start" classname="nz.ac.auckland.se281.MainTest$Task6" time="0.002"/>
+  <testcase name="T6_02_start_game_twice" classname="nz.ac.auckland.se281.MainTest$Task6" time="0.002"/>
+</testsuite>
